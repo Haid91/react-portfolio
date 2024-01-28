@@ -1,21 +1,21 @@
 function Contact (){
     return(
         <>
-        <section class="contact-us section">
+        <section class="contact- section">
 			<div class="container">
 				<div class="inner">
 					<div class="row"> 
 						<div class="col-lg-6">
-							<div class="contact-us-left">
+							<div class="contact-left">
 								
 								<div id="myMap"></div>
 								
 							</div>
 						</div>
 						<div class="col-lg-6">
-							<div class="contact-us-form">
-								<h2>Contact With Us</h2>
-								<p>If you have any questions please fell free to contact with us.</p>
+							<div class="contact-form">
+								<h2>Contact</h2>
+								{/* <p>If you have any questions please fell free to contact with us.</p> */}
 								
 								<form class="form" method="post" action="mail/mail.php">
 									<div class="row">
@@ -49,7 +49,7 @@ function Contact (){
 												<button class="btn" type="submit">Send</button>
 											</div>
 											<div class="checkbox">
-												<label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox"/>Do you want to subscribe our Newsletter ?</label>
+												<label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox"/></label>
 											</div>
 										</div>
 									</div>
@@ -66,8 +66,8 @@ function Contact (){
 							<div class="single-info">
 								<i class="icofont icofont-ui-call"></i>
 								<div class="content">
-									<h3>+(000) 1234 56789</h3>
-									<p>info@company.com</p>
+									<h3>+61401229112</h3>
+									<p>haider@gmail.com</p>
 								</div>
 							</div>
 						</div>
@@ -76,8 +76,7 @@ function Contact (){
 							<div class="single-info">
 								<i class="icofont-google-map"></i>
 								<div class="content">
-									<h3>2 Fir e Brigade Road</h3>
-									<p>Chittagonj, Lakshmipur</p>
+									
 								</div>
 							</div>
 						</div>

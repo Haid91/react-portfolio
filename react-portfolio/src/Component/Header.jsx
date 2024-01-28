@@ -31,7 +31,7 @@ function Header () {
 							<div class="col-lg-3 col-md-3 col-12">
 								
 								<div class="logo">
-									<a href="index.html"><img src="img/logo.png" alt="#"/></a>
+									<a href="index.html"><img src="img/Portfolio.png" alt="#"/></a>
 								</div>
 								
 								<div class="mobile-nav"></div>
@@ -45,13 +45,13 @@ function Header () {
 											<li class="active"><a href="/">Home </a>
 												
 											</li>
-											<li><a href="#">About me </a></li>
-											<li><a href="#">Portfolio </a></li>
+											<li><a href="/about">About  </a></li>
+											<li><a href="/portfolio">Portfolio </a></li>
 											
-											<li><a href="#">Resume </a>
+											<li><a href="/resume">Resume </a>
 												
 											</li>
-											<li><a href="/contact">Contact Us</a></li>
+											<li><a href="/contact">Contact</a></li>
 										</ul>
 									</nav>
 								</div>

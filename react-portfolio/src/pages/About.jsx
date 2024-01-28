@@ -1,6 +1,6 @@
-import Preloader from "../../Component/Preloader"
+import Preloader from "../Component/Preloader"
 
-import Slider from "../../Component/Slider"
+import Slider from "../Component/Slider"
 function About() {
     return(
         <>

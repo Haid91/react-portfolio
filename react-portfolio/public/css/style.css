@@ -692,6 +692,7 @@ body{
 .schedule {
 	background: #fff;
 	margin: 0;
+	margin-top: 200px;
 	padding: 0;
 	height: 230px;
 }
@@ -726,6 +727,7 @@ body{
     left: 0;
     right: 0;
     margin: 0 auto;
+	margin-top: 200px;
     width: 80%;
     height: 90%;
     background:#1A76D1;
@@ -4166,7 +4168,20 @@ body{
 	text-decoration:underline;
 	display:inline-block;
 	margin-left:4px;
+
+
 }
+
+
 /*=========================
 	End Footer CSS
 ===========================*/
+
+.image-heading{
+	margin-top: 200px!important;
+}
+
+.live-link{
+margin-left: 10px;
+}
+	

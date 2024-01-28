@@ -9,9 +9,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 
-import AboutPage from './pages/About';
+import About from './pages/About';
 
 import  Contact from './pages/Contact';
+
+import Portfolio from './pages/Portfolio';
+
+import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -22,12 +26,23 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutPage />,
+        element: <About />,
       },
        {
          path: '/contact',
          element: <Contact />,
        },
+
+       {
+        path: '/portfolio',
+        element: <Portfolio />,
+      },
+
+      {
+        path: '/resume',
+        element: <Resume />,
+      },
+      
       // {
       //   path: 'about',
       //   element: <AboutPage />,

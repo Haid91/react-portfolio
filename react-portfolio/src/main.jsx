@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './index.css';
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
 
 // Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <HashRouter><RouterProvider router={router} /> </HashRouter>
 );
 
 

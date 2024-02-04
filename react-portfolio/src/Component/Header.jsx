@@ -1,4 +1,4 @@
-function Header () {
+function Header (props) {
 
   return (
     <>
@@ -42,16 +42,16 @@ function Header () {
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="active"><a href="/">Home </a>
+											<li class="active"><a href="#" onClick={()=>props.handlePageChange("Home")}>Home </a>
 												
 											</li>
 											
-											<li><a href="/portfolio">Portfolio </a></li>
+											<li><a href="#" onClick={()=>props.handlePageChange("Portfolio")}>Portfolio </a></li>
 											
-											<li><a href="/resume">Resume </a>
+											<li><a href="#" onClick={()=>props.handlePageChange("Resume")}>Resume </a>
 												
 											</li>
-											<li><a href="/contact">Contact</a></li>
+											<li><a href="#" onClick={()=>props.handlePageChange("Contact")}>Contact</a></li>
 										</ul>
 									</nav>
 								</div>
